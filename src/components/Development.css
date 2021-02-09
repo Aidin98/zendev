@@ -1,0 +1,65 @@
+.dev-section{
+    position: relative;
+    height: auto;
+    width: 100%;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.development{
+    position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url('https://previews.123rf.com/images/ekaart/ekaart1602/ekaart160201287/52450160-floral-doodle-wallpaper-seamless-pattern-in-green-color-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding-top:70px;
+ left: 0;
+}
+h1{
+   color: rgb(75, 74, 74);
+    font-family: Montserrat,sans-serif;
+    font-size: 50px;
+}
+.development-content{
+    position: relative;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 18px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content{
+    background-color: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px 10px 10px 10px;
+    border-radius: 5%;
+    
+}
+.content h2{
+    color:rgb(4, 109, 112);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    font-family:Montserrat,sans-serif ;
+    font-size:15px;
+    padding-bottom: 25px;
+    padding-left:12px;
+}
+

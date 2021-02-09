@@ -1,0 +1,294 @@
+.section{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.banner{
+    
+    position: relative;
+    height: auto;
+    background-color: white;
+    padding-top:25px;
+    width: 100%;
+    padding-bottom: 25px;
+   
+}
+.container{
+   display: flex;
+   flex-direction: row-reverse;
+   
+   
+}
+.banner-home{
+    position: relative;
+  height: 100%;
+ right: -150px;
+}
+.banner-first{
+    position:absolute;
+    left: 0;
+    width: 700px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+}
+.banner-pic{
+    position: relative;
+    height: 500px;
+    width: 900px;
+   
+ 
+}
+.banner-title{
+    font-size: 52px;
+    font-family:Montserrat,sans-serif;
+    line-height: 48px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+.banner-paragraph{
+    font-family:Montserrat,sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top:20px;
+    font-weight: lighter;
+    max-width: 600px;
+    
+}
+.banner-h4{
+    padding-top:20px;
+    color:rgba(76, 230, 97, 0.74);
+    font-size: 50px;
+    font-weight: lighter;
+}
+.button-container{
+    padding-top:25px;
+    
+}
+.btn{
+    font-family:Montserrat,sans-serif;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(129, 78, 129);
+    background-color: white;
+    border: 3px solid rgb(129, 78, 129);
+}
+.btn-show{
+    font-family:Montserrat,sans-serif;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color:rgba(76, 230, 97, 0.74) ;
+    color :white;
+    border:none
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+.sid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+.slider-content{
+    margin-top: 30px;
+    display: flex;
+    width: 800px;
+    border-radius: 5%;
+    -webkit-box-shadow: 0 0 10px grey;
+        box-shadow: 0 0 10px grey;
+        padding: 25px;
+        
+}
+
+.text{
+    padding-left: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.arrows{
+    height: 0px;
+    border:none;
+    background-color: none;
+    font-size: 2rem;
+    
+}
+.slider-content h4{
+    color:rgb(123, 233, 102);
+    font-size: 2rem;
+    font-family: Montserrat,sans-serif;
+}
+.slider-content p{
+    font-family: Montserrat,sans-serif;
+}
+.reading{
+    border:1px solid grey;
+    background-color: white;
+    height: 50px;
+    width:auto;
+    font-family: Montserrat,sans-serif;
+    color:rgb(123, 233, 102);
+    font-weight: bold;
+    font-size: 1rem;
+    padding:10px
+}
+.client{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-image: url('https://previews.123rf.com/images/ekaart/ekaart1602/ekaart160201287/52450160-floral-doodle-wallpaper-seamless-pattern-in-green-color-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    padding-right: 95px;
+    padding-left: 95px;
+    justify-content: center;
+    align-items: center;
+}
+.client h1{
+    padding-bottom: 20px;
+}
+.items{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 30px;
+}
+.client-content{
+    
+    width: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.client-content h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.client-content h1:hover{
+    color:black
+}
+.client-content p{
+    font-family: Montserrat,sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.items h2{
+    position: relative;
+    color:rgb(112, 72, 112);
+    right: 0;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.article-content{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.words{
+   
+    width: 400px;
+}
+.words h1{
+    font-size: 1.7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.join{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn2{
+    font-family:Montserrat,sans-serif;
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(85, 247, 80);
+    border:none;
+}
+.join h2{
+    font-family:Montserrat,sans-serif;
+    color: grey;
+    padding-right: 15px;
+}
+.join h2 h5{
+   font-family:  Montserrat,sans-serif;
+   font-weight: lighter;
+}
+.footer{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 245, 215);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.part2{
+    font-size: 1.1rem;
+    padding-top: 50px;
+    display: flex;
+    font-family:  Montserrat,sans-serif;
+    align-items: center;
+}.nas{
+    display: flex;
+}
+.part1{
+    padding-right: 30px;
+    padding-top: 50px;
+    font-family:  Montserrat,sans-serif;
+    color:rgb(63, 241, 63);
+    font-size:2rem;
+}
